@@ -14,7 +14,7 @@
 		0D6F0F2215729F3300F15E4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6F0F2115729F3300F15E4F /* main.m */; };
 		0D6F0F2615729F3300F15E4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6F0F2515729F3300F15E4F /* AppDelegate.m */; };
 		0D6F0F2915729F3300F15E4F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D6F0F2715729F3300F15E4F /* MainStoryboard.storyboard */; };
-		0D6F0F2C15729F3300F15E4F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6F0F2B15729F3300F15E4F /* ViewController.m */; };
+		0D6F0F3415729F8200F15E4F /* TimelineTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6F0F3315729F8200F15E4F /* TimelineTableController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +22,15 @@
 		0D6F0F1515729F3300F15E4F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0D6F0F1715729F3300F15E4F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0D6F0F1915729F3300F15E4F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		0D6F0F1D15729F3300F15E4F /* twitter-client-Info.plist */ = {isa = PBXFileReference; path = "twitter-client-Info.plist"; sourceTree = "<group>"; };
+		0D6F0F1D15729F3300F15E4F /* twitter-client-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "twitter-client-Info.plist"; sourceTree = "<group>"; };
 		0D6F0F1F15729F3300F15E4F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0D6F0F2115729F3300F15E4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0D6F0F2315729F3300F15E4F /* twitter-client-Prefix.pch */ = {isa = PBXFileReference; path = "twitter-client-Prefix.pch"; sourceTree = "<group>"; };
-		0D6F0F2415729F3300F15E4F /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		0D6F0F2315729F3300F15E4F /* twitter-client-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "twitter-client-Prefix.pch"; sourceTree = "<group>"; };
+		0D6F0F2415729F3300F15E4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0D6F0F2515729F3300F15E4F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0D6F0F2815729F3300F15E4F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		0D6F0F2A15729F3300F15E4F /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
-		0D6F0F2B15729F3300F15E4F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0D6F0F3215729F8200F15E4F /* TimelineTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimelineTableController.h; sourceTree = "<group>"; };
+		0D6F0F3315729F8200F15E4F /* TimelineTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimelineTableController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +80,9 @@
 				0D6F0F2415729F3300F15E4F /* AppDelegate.h */,
 				0D6F0F2515729F3300F15E4F /* AppDelegate.m */,
 				0D6F0F2715729F3300F15E4F /* MainStoryboard.storyboard */,
-				0D6F0F2A15729F3300F15E4F /* ViewController.h */,
-				0D6F0F2B15729F3300F15E4F /* ViewController.m */,
 				0D6F0F1C15729F3300F15E4F /* Supporting Files */,
+				0D6F0F3215729F8200F15E4F /* TimelineTableController.h */,
+				0D6F0F3315729F8200F15E4F /* TimelineTableController.m */,
 			);
 			path = "twitter-client";
 			sourceTree = "<group>";
@@ -162,7 +162,7 @@
 			files = (
 				0D6F0F2215729F3300F15E4F /* main.m in Sources */,
 				0D6F0F2615729F3300F15E4F /* AppDelegate.m in Sources */,
-				0D6F0F2C15729F3300F15E4F /* ViewController.m in Sources */,
+				0D6F0F3415729F8200F15E4F /* TimelineTableController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
